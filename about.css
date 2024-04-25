@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background: #79AC78;
+    position:relative;
+    margin: auto;
+}
+nav{
+    position: fixed;
+    width: 84%;
+    margin: auto;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.ul-navbar {
+    justify-content: center;
+    align-items: baseline;
+    display: flex;
+    position: absolute;
+    left: 85%;
+    top: 20px;
+}
+
+.logo{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 22px;
+    left: 15%;
+}
+span{
+    color: #555843;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #F5EEC8;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+nav ul li a :hover{
+    background-color: transparent;
+    border: 2px solid gray;
+}
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #79AC78;
+    height: 80vh;
+    position: relative;
+    margin: auto;
+}
+.about-me {
+
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #555843;
+    padding-bottom: 0%;
+    margin-bottom: 15%;
+    
+}
+.about-me img{
+    height: 20hv;
+    width: 430px;
+    border-radius: 10px;
+    margin-right: 22px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+.about-me text{
+    width: 550px;
+    font-size: larger;
+    padding: 12px;
+    margin: 22px;
+}
+.about-me h2{
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid green ;
+}
+.about-text h5{
+    color:white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+.button{
+    background-color: #A7D397 ;
+    color: white ;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
