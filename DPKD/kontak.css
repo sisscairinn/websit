@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background: #79AC78;
+    position:relative;
+    margin: auto;
+}
+nav{
+    position: fixed;
+    width: 84%;
+    margin: auto;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.ul-navbar {
+    justify-content: center;
+    align-items: baseline;
+    display: flex;
+    position: absolute;
+    left: 85%;
+    top: 20px;
+}
+
+.logo{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 22px;
+    left: 15%;
+}
+span{
+    color: #555843;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #F5EEC8;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+nav ul li a :hover{
+    background-color: transparent;
+    border: 2px solid gray;
+}
+.hobi{
+    background: #B0D9B1;
+    padding: 60px;
+    width: auto;
+    height: auto;
+}
+.title h2{
+    color: black;
+    font-size: 65px;
+    width: auto;
+    margin-bottom: 35px ;
+    text-align: center;
+}
+
+.reading {
+    background-color: white;
+    width: 350px;
+    height:148px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50px;
+    margin-bottom: 10px;
+}
+
+.watching {
+    background-color: white;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 500px;
+}
+
+.Craft {
+    background-color: white;
+    width: 350px;
+    height: 148px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 950px;
+}
+.contact-me{
+    width: auto;
+    height: auto;
+    max-width: 95%;
+    padding: 120px;
+    padding-top: 15%;
+    background-color:#B0D9B1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-text h2{
+    color: black;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact-box{
+    color: white;
+}
+.contact-box:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.contact{
+    width: 25%;
+    margin-left: 200px;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left
+}
+.contact h4{
+    color: black;
+    padding-bottom: 50px;
+    font-size: 35px;
+}
+.contact p{
+    font-size:25px;
+}
+.penutup {
+    height: 100vh;
+    background-color:#79AC78 ;
+    height: auto;
+}
+.con-anim{
+    padding-bottom: 15%;
+    display: inline-table;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: #555843;
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
+.visit{
+    color: white;
+  font-family: 'Times New Roman', Times, serif;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+  typ 2s steps(8)infinite alternate, bling 0.7s infinite
+  
+}
+@keyframes typ {
+    0%{
+        width: 0%;
+        visibility: hidden;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes bling{
+    50%{
+        border-color: transparent;
+    }
+    100%{
+        border-color: brown;
+    }
+}
